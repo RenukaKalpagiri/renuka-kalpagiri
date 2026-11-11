@@ -108,7 +108,7 @@ I enjoy building reusable UI components, developing interactive applications and
 ## 🤝 Connect With Me
 
 - **LinkedIn:** www.linkedin.com/in/renuka-narlapuram-690645266
-- **GitHub:** https://github.com/renuka-kalpagiri
+- **GitHub:** https://github.com/RenukaKalpagiri/renuka-kalpagiri
 - **Portfolio:** Coming Soon
 
 ---
