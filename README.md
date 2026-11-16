@@ -12,7 +12,7 @@ I enjoy building reusable UI components, developing interactive applications and
 
 ## 👩‍💻 About Me
 
-- 💼 4.3+ years of frontend development experience.
+- 💼 4.4 years of frontend development experience.
 - ⚛️ Hands-on experience with React.js and Angular.
 - 💻 Strong knowledge of JavaScript and TypeScript.
 - 🎨 Experienced in responsive UI development.
