@@ -4,7 +4,7 @@
 
 Welcome to my GitHub profile!
 
-I'm a Frontend Developer with **4.3+ years of experience** in developing responsive, scalable and user-friendly web applications using modern frontend technologies.
+I'm a Frontend Developer with **4.4 years of experience** in developing responsive, scalable and user-friendly web applications using modern frontend technologies.
 
 I enjoy building reusable UI components, developing interactive applications and improving application performance.
 
