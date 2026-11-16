@@ -1,116 +1,59 @@
-# 👋 Hi, I'm Renuka Kalpagiri
+# RenukaPortfolio
 
-### Frontend Developer | React.js | Angular | TypeScript
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.2.
 
-Welcome to my GitHub profile!
+## Development server
 
-I'm a Frontend Developer with **4.4 years of experience** in developing responsive, scalable and user-friendly web applications using modern frontend technologies.
+To start a local development server, run:
 
-I enjoy building reusable UI components, developing interactive applications and improving application performance.
+```bash
+ng serve
+```
 
----
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-## 👩‍💻 About Me
+## Code scaffolding
 
-- 💼 4.4 years of frontend development experience.
-- ⚛️ Hands-on experience with React.js and Angular.
-- 💻 Strong knowledge of JavaScript and TypeScript.
-- 🎨 Experienced in responsive UI development.
-- 🔗 Experience integrating REST APIs.
-- 🧩 Interested in reusable components and scalable frontend architecture.
-- 📍 Hyderabad, India.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
----
+```bash
+ng generate component component-name
+```
 
-## 🛠️ Technical Skills
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-### Frontend Technologies
-- React.js
-- Angular
-- JavaScript (ES6+)
-- TypeScript
-- HTML5
-- CSS3
+```bash
+ng generate --help
+```
 
-### UI Frameworks
-- Bootstrap
-- PrimeNG
-- PrimeReact
-- Tailwind CSS
+## Building
 
-### State Management
-- Redux
-- Redux Toolkit
-- Context API
+To build the project run:
 
-### Forms & Validation
-- React Hook Form / Formik
-- Yup
-- Angular Reactive Forms
+```bash
+ng build
+```
 
-### Tools & Integration
-- Git
-- GitHub
-- VS Code
-- Postman
-- REST APIs
-- JSON
-- JWT Authentication
-- NPM
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
----
+## Running unit tests
 
-## 🚀 Featured Projects
+To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
 
-### 1. OPAL Healthcare
-**Technologies:** Angular 17, TypeScript, PrimeNG
+```bash
+ng test
+```
 
-- Healthcare application development.
-- Reusable UI component development.
-- REST API integration.
-- Responsive user interface implementation.
+## Running end-to-end tests
 
-### 2. Autistica Study & Research
-**Technologies:** React.js, JavaScript, PrimeReact
+For end-to-end (e2e) testing, run:
 
-- Interactive frontend application development.
-- Reusable React components.
-- API integration and UI development.
+```bash
+ng e2e
+```
 
-### 3. Salvis Marketing
-**Technologies:** Angular 13, TypeScript, PrimeNG
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-- Marketing application development.
-- Responsive layouts.
-- Reusable components and form validation.
+## Additional Resources
 
-### 4. StratPilot
-**Technologies:** React.js, TypeScript, Tailwind CSS
-
-- Modern frontend application development.
-- Interactive user interfaces.
-- Reusable components and responsive layouts.
-
-*Project descriptions are representative of my experience. Public repositories will contain independent demonstrations or code that I am authorized to share.*
-
----
-
-## 📈 Currently Learning
-
-- Advanced React.js
-- Angular architecture
-- TypeScript best practices
-- Frontend performance optimization
-- Testing with Jest and React Testing Library
-
----
-
-## 🤝 Connect With Me
-
-- **LinkedIn:** www.linkedin.com/in/renuka-narlapuram-690645266
-- **GitHub:** https://github.com/RenukaKalpagiri/renuka-kalpagiri
-- **Portfolio:** Coming Soon
-
----
-
-⭐ Thank you for visiting my GitHub profile!
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

@@ -1,0 +1,25 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #09090f;
+  color: #f5f3ff;
+  font-family: Inter, "Segoe UI", Arial, sans-serif;
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+::selection {
+  background: #a78bfa;
+  color: #09090f;
+}

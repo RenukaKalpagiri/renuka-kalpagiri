@@ -1,0 +1,176 @@
+
+<header class="header">
+  <a class="logo" href="#home">RK<span>.</span></a>
+
+  <button class="menu-toggle"
+          (click)="menuOpen = !menuOpen"
+          aria-label="Toggle navigation">
+    ☰
+  </button>
+
+  <nav [class.open]="menuOpen">
+    <a href="#home" (click)="closeMenu()">Home</a>
+    <a href="#about" (click)="closeMenu()">About</a>
+    <a href="#skills" (click)="closeMenu()">Skills</a>
+    <a href="#experience" (click)="closeMenu()">Experience</a>
+    <a href="#projects" (click)="closeMenu()">Projects</a>
+    <a href="#contact" (click)="closeMenu()">Contact</a>
+  </nav>
+
+  <a class="resume-btn" href="/renuka-resume.pdf" target="_blank">
+    Resume ↗
+  </a>
+</header>
+
+<main>
+  <section class="hero section" id="home">
+    <div class="hero-content">
+      <p class="eyebrow">HELLO, I'M RENUKA KALPAGIRI</p>
+
+      <h1>
+        Building digital
+        <span>experiences</span>
+        with modern frontend technology.
+      </h1>
+
+      <p class="hero-description">
+        Frontend Developer with 4.4 years of experience
+        building responsive and user-friendly web applications
+        using Angular, React JS and TypeScript.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="primary-btn">Explore My Work ↗</a>
+        <a href="#contact" class="secondary-btn">Contact Me</a>
+      </div>
+
+      <div class="hero-meta">
+        <span>● Available for frontend opportunities</span>
+        <span>Hyderabad, India</span>
+      </div>
+    </div>
+
+    <div class="hero-card">
+      <div class="code-window">
+        <div class="window-top">
+          <span></span><span></span><span></span>
+          <small>renuka.ts</small>
+        </div>
+
+        <div class="code-content">
+          <p><span class="purple">const</span> developer = {{'{'}}</p>
+          <p>&nbsp;&nbsp;name: <span class="green">'Renuka'</span>,</p>
+          <p>&nbsp;&nbsp;role: <span class="green">'Frontend Developer'</span>,</p>
+          <p>&nbsp;&nbsp;experience: <span class="orange">'4.4 years'</span>,</p>
+          <p>&nbsp;&nbsp;skills: [</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">'Angular'</span>,</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">'React JS'</span>,</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="green">'TypeScript'</span></p>
+          <p>&nbsp;&nbsp;]</p>
+          <p>{{'}'}};</p>
+          <p class="code-comment">// Creating meaningful web experiences.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about" id="about">
+    <p class="eyebrow">01 / ABOUT ME</p>
+    <h2>Turning ideas into <span>digital solutions.</span></h2>
+
+    <p class="section-description">
+      I'm a Frontend Developer with 4.4 years of experience
+      developing modern web applications using Angular, React JS,
+      JavaScript and TypeScript. I enjoy building reusable components,
+      integrating REST APIs and creating responsive user interfaces.
+      I focus on clean code, maintainable architecture and
+      delivering smooth user experiences.
+    </p>
+
+    <div class="stats">
+      <div><strong>4.4</strong><span>Years Experience</span></div>
+      <div><strong>React</strong><span>Frontend Development</span></div>
+      <div><strong>Angular</strong><span>Frontend Development</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <p class="eyebrow">02 / TECHNICAL SKILLS</p>
+    <h2>My technology <span>stack.</span></h2>
+
+    <div class="skill-grid">
+      @for (skill of skills; track skill) {
+        <div class="skill-card">{{ skill }}</div>
+      }
+    </div>
+  </section>
+
+  <section class="section experience" id="experience">
+    <p class="eyebrow">03 / EXPERIENCE</p>
+    <h2>My professional <span>journey.</span></h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-dot"></span>
+        <div>
+          <h3>Frontend Developer</h3>
+          <p class="muted">4.4 Years of Experience</p>
+          <p>
+            Developing frontend applications using Angular,
+            React JS, TypeScript, JavaScript, PrimeNG and PrimeReact.
+          </p>
+          <p>
+            Working with reusable components, responsive design,
+            REST API integration and application performance improvements.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <p class="eyebrow">04 / SELECTED PROJECTS</p>
+    <h2>Some things I've <span>worked on.</span></h2>
+
+    <div class="project-grid">
+      @for (project of projects; track project.number) {
+        <article class="project-card">
+          <div class="project-number">{{ project.number }}</div>
+          <p class="project-category">{{ project.category }}</p>
+          <h3>{{ project.name }}</h3>
+          <p class="project-description">{{ project.description }}</p>
+          <p class="project-tech">{{ project.technology }}</p>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="contact section" id="contact">
+    <p class="eyebrow">05 / GET IN TOUCH</p>
+    <h2>Let's build something <span>great together.</span></h2>
+
+    <p>
+      I'm interested in frontend development opportunities
+      where I can contribute my Angular and React experience.
+    </p>
+
+    <div class="hero-actions">
+      <a class="primary-btn" href="mailto:YOUR_EMAIL@example.com">
+        Email Me ↗
+      </a>
+      <a class="secondary-btn"
+         href="https://github.com/renuka-kalpagiri"
+         target="_blank">GitHub ↗</a>
+    </div>
+
+    <a class="linkedin-link"
+       href="https://www.linkedin.com/in/renuka-narlapuram-690645266"
+       target="_blank">Connect on LinkedIn ↗</a>
+  </section>
+</main>
+
+<footer>
+  <a class="logo" href="#home">RK<span>.</span></a>
+  <p>© 2026 Renuka Kalpagiri. Built with Angular.</p>
+  <a href="#home">Back to top ↑</a>
+</footer>
